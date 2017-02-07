@@ -24,7 +24,11 @@ shinyUI(fluidPage(
     
     # Show a plot of the generated distribution
     mainPanel(
-       h3(strong("Result: ")),
+       p("Welcome to this app by AWartyWho."),
+       p("This app is for use when playing any form of poker."),
+       p("Input your five cards in the appropriate sidebar boxes using the notation as listed."),
+       p("When completed, click the Submit button at the bottom to tell you what poker hand you have created."),
+       p(h3(strong("Result: "))),
        h3(textOutput("result")),
        width = 6
     )
